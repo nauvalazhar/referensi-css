@@ -5,7 +5,7 @@ const AlignContent = () => (
   <React.Fragment>
     <style>{`
         .align-content { background: hsl(0, 0%, 95%);display: flex;flex-wrap: wrap;height: 300px;padding: 0; }
-        .align-content .square { height: 46px;margin: 2px;width: 30%; }.align-content .square:nth-child(2) { height: 96px; }.align-content .box { height: 150px;left: 0;position: absolute;right: 0;top: 0; }.align-content .box--red:before { content: "First line"; }.align-content .box--green { top: 150px; }.align-content .box--green:before { content: "Second line"; }
+        .align-content .square { height: 46px;margin: 2px;width: 30%; }.align-content .square:nth-child(2) { height: 96px; }.align-content .box { height: 150px;left: 0;position: absolute;right: 0;top: 0; }.align-content .box--red:before { content: "Baris pertama"; }.align-content .box--green { top: 150px; }.align-content .box--green:before { content: "Baris kedua"; }
         #align-content-stretch{ align-content:stretch;}
         #align-content-stretch .box--red { height: 175px; }#align-content-stretch .box--green { height: 125px;top: 175px; }
         #align-content-flex-start{ align-content:flex-start;}

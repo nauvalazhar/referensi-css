@@ -22,20 +22,19 @@ const AlignItems = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/align-items"
       description=<React.Fragment>
         <p>
-          Defines how flexbox items are aligned according to the{" "}
-          <strong>cross</strong> axis, within a line of a flexbox container.
+          Mendefinisikan bagaimana item flexbox disejajarkan sesuai dengan <i>cross-axis</i>,
+          dalam satu baris <i>container</i> flexbox.
         </p>
       </React.Fragment>
     >
       <SectionExample>
         <SectionExample.Property declaration={`align-items: flex-start;`}>
           <p>
-            The flexbox items are aligned at the <strong>start</strong> of the{" "}
-            <strong>cross axis</strong>.
+            Item flexbox disejajarkan di awal (<i>start</i>) <i>cross-axis</i>.
           </p>
           <p>
-            By default, the cross axis is vertical. This means the flexbox items
-            will be aligned <em>vertically</em> at the <em>top</em>.
+            Secara bawaan, <i>cross-axis</i> adalah vertikal. 
+            Ini berarti item flexbox akan disejajarkan secara vertikal di bagian atas (<i>top</i>).
           </p>
         </SectionExample.Property>
 
@@ -57,12 +56,11 @@ const AlignItems = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-items: flex-end;`}>
           <p>
-            The flexbox items are aligned at the <strong>end</strong> of the{" "}
-            <strong>cross axis</strong>.
+            Item flexbox disejajarkan di ujung (<i>end</i>) <i>cross-axis</i>.
           </p>
           <p>
-            By default, the cross axis is vertical. This means the flexbox items
-            will be aligned <em>vertically</em> at the <em>bottom</em>.
+            Secara bawaan, <i>cross-axis</i> adalah vertikal. 
+            Ini berarti item flexbox akan disejajarkan secara vertikal di bagian bawah (<i>bottom</i>).
           </p>
         </SectionExample.Property>
 
@@ -84,12 +82,11 @@ const AlignItems = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-items: center;`}>
           <p>
-            The flexbox items are aligned at the <strong>center</strong> of the{" "}
-            <strong>cross axis</strong>.
+            Item flexbox disejajarkan di tengah (<i>center</i>) <i>cross-axis</i>.
           </p>
           <p>
-            By default, the cross axis is vertical. This means the flexbox items
-            will be <strong>centered</strong> <em>vertically</em>.
+            Secara bawaan, cross-axis adalah vertikal. 
+            Ini berarti item flexbox akan dipusatkan (<i>centered</i>) secara vertikal.
           </p>
         </SectionExample.Property>
 
@@ -111,13 +108,11 @@ const AlignItems = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-items: baseline;`}>
           <p>
-            The flexbox items are aligned at the <strong>baseline</strong> of
-            the <strong>cross axis</strong>.
+            Item flexbox disejajarkan di garis dasar (<i>baseline</i>) dari <i>cross-axis</i>.
           </p>
           <p>
-            By default, the cross axis is vertical. This means the flexbox items
-            will align themselves in order to have the <em>baseline</em> of
-            their <em>text</em> align along a horizontal line.
+            Secara bawaan, <i>cross-axis</i> adalah vertikal. 
+            Ini berarti item flexbox akan menyelaraskan dirinya sendiri agar garis dasar (<i>baseline</i>) teksnya sejajar sepanjang garis horizontal.
           </p>
         </SectionExample.Property>
 
@@ -139,12 +134,11 @@ const AlignItems = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-items: stretch;`}>
           <p>
-            The flexbox items will stretch across the whole{" "}
-            <strong>cross axis</strong>.
+            Item flexbox akan membentang di seluruh <i>cross-axis</i>.
           </p>
           <p>
-            By default, the cross axis is vertical. This means the flexbox items
-            will fill up the whole vertical space.
+            Secara bawaan, <i>cross-axis</i> adalah vertikal.
+            Ini berarti item flexbox akan memenuhi seluruh ruang vertikal. 
           </p>
         </SectionExample.Property>
 

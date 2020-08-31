@@ -1,0 +1,545 @@
+[
+  {
+    "name": "align-content",
+    "collection": "flexbox"
+  },
+  {
+    "name": "align-items",
+    "collection": "flexbox"
+  },
+  {
+    "name": "align-self",
+    "collection": "flexbox"
+  },
+  {
+    "name": "animation-delay",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-direction",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-duration",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-fill-mode",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-iteration-count",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-name",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-play-state",
+    "collection": "animations"
+  },
+  {
+    "name": "animation-timing-function",
+    "collection": "animations"
+  },
+  {
+    "name": "animation",
+    "collection": "animations"
+  },
+  {
+    "name": "background-attachment",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-clip",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-color",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-image",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-origin",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-position",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-repeat",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background-size",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "background",
+    "collection": "backgrounds"
+  },
+  {
+    "name": "border-bottom-color"
+  },
+  {
+    "name": "border-bottom-left-radius"
+  },
+  {
+    "name": "border-bottom-right-radius"
+  },
+  {
+    "name": "border-bottom-style"
+  },
+  {
+    "name": "border-bottom-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "border-bottom"
+  },
+  {
+    "name": "border-collapse"
+  },
+  {
+    "name": "border-color"
+  },
+  {
+    "name": "border-left-color"
+  },
+  {
+    "name": "border-left-style"
+  },
+  {
+    "name": "border-left-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "border-left"
+  },
+  {
+    "name": "border-radius"
+  },
+  {
+    "name": "border-right-color"
+  },
+  {
+    "name": "border-right-style"
+  },
+  {
+    "name": "border-right-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "border-right"
+  },
+  {
+    "name": "border-style"
+  },
+  {
+    "name": "border-top-color"
+  },
+  {
+    "name": "border-top-left-radius"
+  },
+  {
+    "name": "border-top-right-radius"
+  },
+  {
+    "name": "border-top-style"
+  },
+  {
+    "name": "border-top-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "border-top"
+  },
+  {
+    "name": "border-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "border",
+    "collection": "box-model"
+  },
+  {
+    "name": "bottom",
+    "collection": "positioning"
+  },
+  {
+    "name": "box-shadow"
+  },
+  {
+    "name": "box-sizing",
+    "collection": "box-model"
+  },
+  {
+    "name": "clear"
+  },
+  {
+    "name": "color",
+    "collection": "typography"
+  },
+  {
+    "name": "column-count"
+  },
+  {
+    "name": "column-gap"
+  },
+  {
+    "name": "column-width"
+  },
+  {
+    "name": "content"
+  },
+  {
+    "name": "cursor"
+  },
+  {
+    "name": "display"
+  },
+  {
+    "name": "flex-basis",
+    "collection": "flexbox"
+  },
+  {
+    "name": "flex-direction",
+    "collection": "flexbox"
+  },
+  {
+    "name": "flex-flow",
+    "collection": "flexbox"
+  },
+  {
+    "name": "flex-grow",
+    "collection": "flexbox"
+  },
+  {
+    "name": "flex-shrink",
+    "collection": "flexbox"
+  },
+  {
+    "name": "flex-wrap",
+    "collection": "flexbox"
+  },
+  {
+    "name": "float"
+  },
+  {
+    "name": "font-family",
+    "collection": "typography"
+  },
+  {
+    "name": "font-size",
+    "collection": "typography"
+  },
+  {
+    "name": "font-style",
+    "collection": "typography"
+  },
+  {
+    "name": "font-variant",
+    "collection": "typography"
+  },
+  {
+    "name": "font-weight",
+    "collection": "typography"
+  },
+  {
+    "name": "font",
+    "collection": "typography"
+  },
+  {
+    "name": "grid-area",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-auto-columns",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-auto-flow",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-auto-rows",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-column-end",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-column-gap",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-column-start",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-column",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-gap",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-row-end",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-row-gap",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-row-start",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-row",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-template-areas",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-template-columns",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-template-rows",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid-template",
+    "collection": "css-grid"
+  },
+  {
+    "name": "grid",
+    "collection": "css-grid"
+  },
+  {
+    "name": "height",
+    "collection": "box-model"
+  },
+  {
+    "name": "justify-content",
+    "collection": "flexbox"
+  },
+  {
+    "name": "left",
+    "collection": "positioning"
+  },
+  {
+    "name": "letter-spacing",
+    "collection": "typography"
+  },
+  {
+    "name": "line-height",
+    "collection": "box-model"
+  },
+  {
+    "name": "list-style-image"
+  },
+  {
+    "name": "list-style-position"
+  },
+  {
+    "name": "list-style-type"
+  },
+  {
+    "name": "list-style"
+  },
+  {
+    "name": "margin-bottom",
+    "collection": "box-model"
+  },
+  {
+    "name": "margin-left",
+    "collection": "box-model"
+  },
+  {
+    "name": "margin-right",
+    "collection": "box-model"
+  },
+  {
+    "name": "margin-top",
+    "collection": "box-model"
+  },
+  {
+    "name": "margin",
+    "collection": "box-model"
+  },
+  {
+    "name": "max-height",
+    "collection": "box-model"
+  },
+  {
+    "name": "max-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "min-height",
+    "collection": "box-model"
+  },
+  {
+    "name": "min-width",
+    "collection": "box-model"
+  },
+  {
+    "name": "mix-blend-mode"
+  },
+  {
+    "name": "opacity"
+  },
+  {
+    "name": "order",
+    "collection": "flexbox"
+  },
+  {
+    "name": "outline-color"
+  },
+  {
+    "name": "outline-style"
+  },
+  {
+    "name": "outline-width"
+  },
+  {
+    "name": "outline"
+  },
+  {
+    "name": "overflow-wrap"
+  },
+  {
+    "name": "overflow-x"
+  },
+  {
+    "name": "overflow-y"
+  },
+  {
+    "name": "overflow"
+  },
+  {
+    "name": "padding-bottom",
+    "collection": "box-model"
+  },
+  {
+    "name": "padding-left",
+    "collection": "box-model"
+  },
+  {
+    "name": "padding-right",
+    "collection": "box-model"
+  },
+  {
+    "name": "padding-top",
+    "collection": "box-model"
+  },
+  {
+    "name": "padding",
+    "collection": "box-model"
+  },
+  {
+    "name": "pointer-events"
+  },
+  {
+    "name": "position",
+    "collection": "positioning"
+  },
+  {
+    "name": "resize"
+  },
+  {
+    "name": "right",
+    "collection": "positioning"
+  },
+  {
+    "name": "text-align",
+    "collection": "typography"
+  },
+  {
+    "name": "text-decoration",
+    "collection": "typography"
+  },
+  {
+    "name": "text-indent",
+    "collection": "typography"
+  },
+  {
+    "name": "text-overflow",
+    "collection": "typography"
+  },
+  {
+    "name": "text-shadow",
+    "collection": "typography"
+  },
+  {
+    "name": "text-transform",
+    "collection": "typography"
+  },
+  {
+    "name": "top",
+    "collection": "positioning"
+  },
+  {
+    "name": "transform-origin"
+  },
+  {
+    "name": "transform"
+  },
+  {
+    "name": "transition-delay",
+    "collection": "transitions"
+  },
+  {
+    "name": "transition-duration",
+    "collection": "transitions"
+  },
+  {
+    "name": "transition-property",
+    "collection": "transitions"
+  },
+  {
+    "name": "transition-timing-function",
+    "collection": "transitions"
+  },
+  {
+    "name": "transition",
+    "collection": "transitions"
+  },
+  {
+    "name": "vertical-align"
+  },
+  {
+    "name": "white-space",
+    "collection": "typography"
+  },
+  {
+    "name": "width",
+    "collection": "box-model"
+  },
+  {
+    "name": "will-change"
+  },
+  {
+    "name": "word-break",
+    "collection": "typography"
+  },
+  {
+    "name": "word-spacing",
+    "collection": "typography"
+  },
+  {
+    "name": "z-index",
+    "collection": "positioning"
+  }
+]

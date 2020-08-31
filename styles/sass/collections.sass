@@ -1,0 +1,30 @@
+.collections-properties
+	display: flex
+	flex-wrap: wrap
+	padding: 4rem 3rem
+	.collections-property
+		width: calc(100% / 4)
+		padding: 0 1rem
+		margin-bottom: 1rem
+		&-inner
+			padding: 1rem
+			border-radius: 5px
+			border: 1px solid #f2f2f2
+			border-top: 2px solid transparent
+			box-shadow: 0 2px 4px rgba(0,0,0,.05)
+			transition-duration: $speed
+			transition-property: border
+			&:hover
+				border-top-color: $primary
+		&-title
+			font-size: 1.1rem
+			font-weight: 700
+			margin-bottom: .075rem
+			a
+				border-bottom: 1px solid transparent
+				color: $text-strong
+				&:hover
+					border-bottom-color: $link
+					color: $link
+		&-description
+			font-size: .8rem

@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Animations",
+		"slug": "animations",
+		"description": "menganimasikan hampir semua properti lainnya"
+	},
+	{
+		"name": "Backgrounds",
+		"slug": "backgrounds",
+		"description": "memberi gaya latar belakang dari sebuah elemen dengan warna atau gambar"
+	},
+	{
+		"name": "Box Model",
+		"slug": "box-model",
+		"description": "mendefinisikan ukuran dan prilaku dari elemen HTML"
+	},
+	{
+		"name": "Flexbox",
+		"slug": "flexbox",
+		"description": "menggunakan kemampuan Flexbox CSS3"
+	},
+	{
+		"name": "CSS Grid",
+		"slug": "css-grid",
+		"description": "menggunakan kemampuan Grid CSS3"
+	},
+	{
+		"name": "Positioning",
+		"slug": "positioning",
+		"description": "memposisikan elemen secara manual di HTML"
+	},
+	{
+		"name": "Transitions",
+		"slug": "transitions",
+		"description": "mendefinisikan bagaimana sebuah transisi elemen HTML antara state"
+	},
+	{
+		"name": "Typography",
+		"slug": "typography",
+		"description": "mendefinisikan warna, ukuran, spasi, dan bentuk dari teks"
+	}
+]

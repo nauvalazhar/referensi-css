@@ -1,0 +1,1 @@
+- Remove menu: shadows function from main.js

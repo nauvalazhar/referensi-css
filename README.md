@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Referensi CSS
+
+Jadi gini, Anda tau cssreference.io? Nah, situs itu dibuat oleh mas @jgthms, situs tersebut juga open source, ditulis dengan Jekyll (Ruby). Perlu Anda ketahui, Jekyll lumayan lambat pada saat build time, dan juga ditinggalkan oleh Bootstrap. Bootstrap awalnya pake Jekyll juga, terus malah migrasi ke Hugo. Awalnya saya juga mau pake Hugo, tapi, karena pengalaman di Go itu sedikit, jadi, saya milih [Next.js](https://nextjs.org) yang sudah saya gunakan selama 1+ tahun terakhir.
+
+Terus? Sebenernya, saya ini mau menerjemahkan situs cssreference.io ke bahasa Indonesia, alih-alih ingin menerjemahkan bahasanya saja, eh malah satu proyek saya tulis ulang jadi Next.js. Sekarang pun belum ada konten yang saya terjemahkan ke dalam bahasa Indonesia, tapi, ini akan saya cicil di waktu luang saya. 
+
+Secara UI dan fungsionalitas sudah bisa digunakan, sih. Karena di awal saya tulis ulang dulu semuanya dan saya buat semuanya bekerja, supaya setelah ini saya bisa fokus menerjemahkan kontennya saja.
+
+Bila Anda ingin berkontribusi, silahkan saja, yang pasti saya akan mulai dari properti yang paling atas: align-content.
 
 ## Getting Started
 

@@ -24,8 +24,9 @@ const AlignContent = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/align-content"
       description=<React.Fragment>
         <p>
-          Mendefinisikan bagaimana setiap baris disejajarkan di dalam sebuah flexbox/grid <i>container</i>.{" "}
-          Itu hanya berlaku bila deklarasi <code>flex-wrap: wrap</code> ada, dan bila ada beberapa baris item flexbox/grid.
+          Defines how each line is aligned within a flexbox/grid container. It
+          only applies if <code>flex-wrap: wrap</code> is present, and if there
+          are <strong>multiple lines</strong> of flexbox/grid items.
         </p>
       </React.Fragment>
     >
@@ -35,33 +36,33 @@ const AlignContent = () => (
           declaration={`align-content: stretch;`}
         >
           <p>
-            Setiap baris akan meregang untuk <em>mengisi (fill)</em> ruang yang tersisa.
+            Each line will stretch to <em>fill</em> the remaining space.
           </p>
           <p>
-            Dalam hal ini, tinggi <i>container</i> adalah <code>300px</code>. Semua kotak tingginya
-            <code>50px</code>, kecuali kotak yang kedua yang tingginya{" "}
-            <code>100px</code>.
+            In this case, the container is <code>300px</code> high. All boxes
+            are <code>50px</code> high, apart from the second one who is{" "}
+            <code>100px</code> high.
           </p>
           <ul>
             <li>
-              Baris pertama tingginya <strong>100px</strong>
+              The first line is <strong>100px</strong> high
             </li>
             <li>
-              Baris kedua tingginya <strong>50px</strong>
+              The second line is <strong>50px</strong> high
             </li>
             <li>
-              Sisa ruangnya adalah <strong>150px</strong>
+              The remaing space is <strong>150px</strong>
             </li>
           </ul>
           <p>
-            Sisa ruang ini didistribusikan secara merata diantara dua baris:
+            This remaining space is distributed equally amongst the two lines:
           </p>
           <ul>
             <li>
-              Baris pertama sekarang tingginya <strong>175px</strong>
+              The first line is now <strong>175px</strong> high
             </li>
             <li>
-              Baris kedua sekarang tingginya <strong>125px</strong>
+              The second line is now <strong>125px</strong> high
             </li>
           </ul>
         </SectionExample.Property>
@@ -85,8 +86,9 @@ const AlignContent = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-content: flex-start;`}>
           <p>
-            Setiap baris hanya akan mengisi ruang yang dibutuhkan. 
-            Mereka semua akan bergerak menuju awal (<i>start</i>) <i>cross-axis</i> dari <i>container</i> flexbox/grid.
+            Each line will only fill the space it <em>needs</em>. They will all
+            move towards the <strong>start</strong> of the flexbox/grid
+            container's cross axis.
           </p>
         </SectionExample.Property>
 
@@ -109,8 +111,9 @@ const AlignContent = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-content: flex-end;`}>
           <p>
-            Setiap baris hanya akan mengisi ruang yang dibutuhkan. 
-            Mereka semua akan bergerak menuju ujung (<i>start</i>) <i>cross-axis</i> dari <i>container</i> flexbox/grid.
+            Each line will only fill the space it <em>needs</em>. They will all
+            move towards the <strong>end</strong> of the flexbox/grid
+            container's cross axis.
           </p>
         </SectionExample.Property>
 
@@ -133,8 +136,9 @@ const AlignContent = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-content: center;`}>
           <p>
-            Setiap baris hanya akan mengisi ruang yang dibutuhkan. 
-            Mereka semua akan bergerak menuju tengah (<i>center</i>) <i>cross-axis</i> dari <i>container</i> flexbox/grid.
+            Each line will only fill the space it <em>needs</em>. They will all
+            move towards the <strong>center</strong> of the flexbox/grid
+            container's cross axis.
           </p>
         </SectionExample.Property>
 
@@ -157,8 +161,9 @@ const AlignContent = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-content: space-between;`}>
           <p>
-            Setiap baris hanya akan mengisi ruang yang dibutuhkan. 
-            Ruang yang tersisa akan muncul diantara (<i>between</i>) baris.
+            Each line will only fill the space it <em>needs</em>. The{" "}
+            <em>remaining</em> space will appear <strong>between</strong> the
+            lines.
           </p>
         </SectionExample.Property>
 
@@ -181,9 +186,10 @@ const AlignContent = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-content: space-around;`}>
           <p>
-            Setiap baris hanya akan mengisi ruang yang dibutuhkan. 
-            Ruang yang tersisa akan didistribusikan secara merata di sekitar (<i>around</i>) baris: 
-            sebelum baris pertama, diantara keduanya, dan setelah yang terakhir.
+            Each line will only fill the space it <em>needs</em>. The{" "}
+            <em>remaining</em> space will be distributed equally{" "}
+            <strong>around</strong> the lines: before the first line, between
+            the two, and after the last one.
           </p>
         </SectionExample.Property>
 

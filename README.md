@@ -8,6 +8,13 @@ Secara UI dan fungsionalitas sudah bisa digunakan, sih. Karena di awal saya tuli
 
 Bila Anda ingin berkontribusi, silahkan saja, yang pasti saya akan mulai dari properti yang paling atas: align-content.
 
+## Sebelum Menerjemahkan
+Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan semut. Karena Anda harus memahami setiap kata, kalimat, paragraf hingga konteksnya. Terdapat beberapa istilah di CSS yang bila diterjemahkan akan membuat bingung dan malah menjadi salah paham, diantaranya:
+- container
+- cross/main axis
+- inline/block
+- tunggu, masih dicari lagi ...
+
 ## Getting Started
 
 First, run the development server:

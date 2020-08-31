@@ -18,9 +18,12 @@ Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan
 
 ## Done
 Daftar properti yang sudah diterjemahkan:
+*Flexbox:*
 - align-content
 - align-items
 - align-self
+
+*Animation:*
 - animation-delay
 - animation-direction
 - animation-duration
@@ -29,6 +32,7 @@ Daftar properti yang sudah diterjemahkan:
 - animation-name
 - animation-play-state
 - animation-timing-function
+- animation
 
 ## Getting Started
 

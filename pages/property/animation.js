@@ -9,7 +9,7 @@ const Animation = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation"
       description=<React.Fragment>
         <p>
-          Shorthand property for{" "}
+          Properti steno (<i>shorthand</i>) untuk {" "}
           <code className="shorthand">
             <Link href={`/property/animation-name`}>
               <a className="hash" data-property-name="animation-name">
@@ -65,7 +65,7 @@ const Animation = () => (
               </a>
             </Link>
           </code>{" "}
-          and{" "}
+          dan{" "}
           <code className="shorthand">
             <Link href={`/property/animation-play-state`}>
               <a className="hash" data-property-name="animation-play-state">
@@ -76,8 +76,8 @@ const Animation = () => (
           .
         </p>
         <p>
-          Only <code>animation-duration</code> and <code>animation-name</code>{" "}
-          are <strong>required</strong>.
+          Hanya <code>animation-duration</code> dan <code>animation-name</code>{" "}
+          <strong>diwajibkan</strong>.
         </p>
       </React.Fragment>
     ></LayoutSingle>

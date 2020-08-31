@@ -17,13 +17,13 @@ Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan
 - tunggu, masih dicari lagi ...
 
 ## Done
-Daftar properti yang sudah diterjemahkan:
-*Flexbox:*
+Daftar properti yang sudah diterjemahkan.
+#### Flexbox
 - align-content
 - align-items
 - align-self
 
-*Animation:*
+#### Animation
 - animation-delay
 - animation-direction
 - animation-duration

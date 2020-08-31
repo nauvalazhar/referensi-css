@@ -16,9 +16,8 @@ const AnimationDelay = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-delay"
       description=<React.Fragment>
         <p>
-          Defines how long the animation has to wait before{" "}
-          <strong>starting</strong>. The animation will only be delayed on its{" "}
-          <em>first</em> iteration.
+          Mendefinisikan berapa lama animasi harus menunggu sebelum memulai. Animasi hanya akan{" "}
+          ditunda pada iterasi pertamanya.
         </p>
       </React.Fragment>
       animation={true}
@@ -29,8 +28,7 @@ const AnimationDelay = () => (
           declaration={`animation-delay: 0s;`}
         >
           <p>
-            The animation will wait <strong>zero seconds</strong>, and thus
-            start right away.
+            Animasi akan menunggu <b>nol detik</b>, dan dengan demikian segera dimulai.
           </p>
         </SectionExample.Property>
 
@@ -49,8 +47,8 @@ const AnimationDelay = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-delay: 1.2s;`}>
           <p>
-            You can use <strong>decimal</strong> values in{" "}
-            <strong>seconds</strong> with the keyword <code>s</code>.
+            Kamu dapat menggunakan nilai <strong>desimal</strong> dalam detik dengan kata kunci{" "}
+            <code>s</code>.
           </p>
         </SectionExample.Property>
 
@@ -69,8 +67,8 @@ const AnimationDelay = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-delay: 2400ms;`}>
           <p>
-            You can use <strong>milliseconds</strong> instead of seconds, with
-            the keyword <code>ms</code>.
+            Kamu dapat menggunakan <strong>mili detik</strong> daripada <strong>detik</strong>,{" "}
+            dengan kata kunci <code>ms</code>.
           </p>
         </SectionExample.Property>
 
@@ -89,9 +87,8 @@ const AnimationDelay = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-delay: -500ms;`}>
           <p>
-            You can use <strong>negative values</strong>: the animation will
-            start as if it had <em>already been playing</em> for{" "}
-            <code>500ms</code>.
+            Kamu dapat menggunakan <strong>nilai negatif</strong>: animasi{" "}
+            akan dimulai seolah-olah telah diputar selama <code>500ms</code>.
           </p>
         </SectionExample.Property>
 

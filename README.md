@@ -15,6 +15,13 @@ Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan
 - inline/block
 - tunggu, masih dicari lagi ...
 
+## Done
+Daftar properti yang sudah diterjemahkan:
+- align-content
+- align-items
+- align-self
+- animation-delay
+
 ## Getting Started
 
 First, run the development server:

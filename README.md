@@ -21,6 +21,7 @@ Daftar properti yang sudah diterjemahkan:
 - align-items
 - align-self
 - animation-delay
+- animation-direction
 
 ## Getting Started
 

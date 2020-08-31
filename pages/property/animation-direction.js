@@ -15,7 +15,7 @@ const AnimationDirection = () => (
       property="animation-direction"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-direction"
       description=<React.Fragment>
-        <p>Defines in which direction the animation is played.</p>
+        <p>Mendefinisikan ke arah mana animasi dimainkan.</p>
       </React.Fragment>
       animation={true}
     >
@@ -25,8 +25,8 @@ const AnimationDirection = () => (
           declaration={`animation-direction: normal;`}
         >
           <p>
-            The animation is played <strong>forwards</strong>. When it reaches
-            the end, it starts over at the first keyframe.
+            Animasi dimainkan ke depan. Saat mencapai bagian akhir, animasi dimulai lagi{" "}
+            pada <i>keyframe</i> pertama.
           </p>
         </SectionExample.Property>
 
@@ -45,8 +45,8 @@ const AnimationDirection = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-direction: reverse;`}>
           <p>
-            The animation is played <strong>backwards</strong>: begins at the
-            last keyframe, finishes at the first keyframe.
+            Animasi dimainkan mundur: dimulai pada <i>keyframe</i> terakhir, selesai pada <i>keyframe</i>{" "} 
+            pertama.
           </p>
         </SectionExample.Property>
 
@@ -67,14 +67,13 @@ const AnimationDirection = () => (
           declaration={`animation-direction: alternate;`}
         >
           <p>
-            The animation is played <strong>forwards</strong> first, then{" "}
-            <strong>backwards</strong>:
+            Animasi dimainkan maju terlebih dahulu, lalu mundur:
           </p>
           <ul>
-            <li>starts at the first keyframe</li>
-            <li>stops at the last keyframe</li>
-            <li>starts again, but at the last keyframe</li>
-            <li>stops at the first keyframe</li>
+            <li>dimulai dari <i>keyframe</i> pertama</li>
+            <li>berhenti di <i>keyframe</i> terakhir</li>
+            <li>mulai lagi, tetapi pada <i>keyframe</i> terakhir</li>
+            <li>berhenti di <i>keyframe</i> pertama</li>
           </ul>
         </SectionExample.Property>
 
@@ -95,14 +94,13 @@ const AnimationDirection = () => (
           declaration={`animation-direction: alternate-reverse;`}
         >
           <p>
-            The animation is played <strong>backwards</strong> first, then{" "}
-            <strong>forwards</strong>:
+            Animasi dimainkan mundur terlebih dahulu, kemudian maju:
           </p>
           <ul>
-            <li>starts at the last keyframe</li>
-            <li>stops at the first keyframe</li>
-            <li>starts again, but at the first keyframe</li>
-            <li>stops at the last keyframe</li>
+            <li>dimulai dari <i>keyframe</i> terakhir</li>
+            <li>berhenti di <i>keyframe</i> pertama</li>
+            <li>mulai lagi, tetapi pada <i>keyframe</i> pertama</li>
+            <li>berhenti di <i>keyframe</i> terakhir</li>
           </ul>
         </SectionExample.Property>
 

@@ -14,7 +14,7 @@ const AnimationDuration = () => (
       property="animation-duration"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-duration"
       description=<React.Fragment>
-        <p>Defines how long the animation lasts.</p>
+        <p>Mendefinisikan berapa lama animasi berlangsung.</p>
       </React.Fragment>
       animation={true}
     >
@@ -24,8 +24,8 @@ const AnimationDuration = () => (
           declaration={`animation-duration: 0s;`}
         >
           <p>
-            The default value is <strong>zero seconds</strong>: the animation
-            will simply not play.
+            Nilai bawaannya adalah <strong>nol detik</strong>: animasi
+            tidak akan dimainkan.
           </p>
         </SectionExample.Property>
 
@@ -44,8 +44,8 @@ const AnimationDuration = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-duration: 1.2s;`}>
           <p>
-            You can use <strong>decimal</strong> values in{" "}
-            <strong>seconds</strong> with the keyword <code>s</code>.
+            Kamu dapat menggunakan nilai <strong>desimal</strong> dalam{" "}
+            <strong>detik</strong> dengan kata kunci <code>s</code>.
           </p>
         </SectionExample.Property>
 
@@ -64,8 +64,8 @@ const AnimationDuration = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-duration: 2400ms;`}>
           <p>
-            You can use <strong>milliseconds</strong> instead of seconds, with
-            the keyword <code>ms</code>.
+            Kamu dapat menggunakan <strong>milidetik</strong> daripada detik, dengan{" "}
+            kata kunci <code>ms</code>.
           </p>
         </SectionExample.Property>
 

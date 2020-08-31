@@ -67,7 +67,7 @@ const AnimationDelay = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-delay: 2400ms;`}>
           <p>
-            Kamu dapat menggunakan <strong>mili detik</strong> daripada <strong>detik</strong>,{" "}
+            Kamu dapat menggunakan <strong>milidetik</strong> daripada <strong>detik</strong>,{" "}
             dengan kata kunci <code>ms</code>.
           </p>
         </SectionExample.Property>

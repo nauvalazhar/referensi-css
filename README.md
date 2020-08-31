@@ -28,6 +28,7 @@ Daftar properti yang sudah diterjemahkan:
 - animation-iteration-count
 - animation-name
 - animation-play-state
+- animation-timing-function
 
 ## Getting Started
 

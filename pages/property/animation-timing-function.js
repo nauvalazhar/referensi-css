@@ -20,8 +20,8 @@ const AnimationTimingFunction = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-timing-function"
       description=<React.Fragment>
         <p>
-          Defines how the values between the <em>start</em> and the <em>end</em>{" "}
-          of the animation are calculated.
+          Mendefinisikan bagaimana nilai antara <em>awal</em> dan <em>akhir</em>{" "}
+          animasi dihitung.
         </p>
       </React.Fragment>
       animation={true}
@@ -32,8 +32,8 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: ease;`}
         >
           <p>
-            The animation starts slowly, accelerates in the middle, and slows
-            down at the end.
+            Animasi dimulai dengan lambat, dipercepat di tengah, dan melambat
+            di bagian akhir.
           </p>
         </SectionExample.Property>
 
@@ -54,8 +54,8 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: ease-in;`}
         >
           <p>
-            The animation starts slowly, and accelerates gradually until the
-            end.
+            Animasi dimulai dengan lambat, dan dipercepat secara bertahap hingga
+            akhir.
           </p>
         </SectionExample.Property>
 
@@ -76,8 +76,8 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: ease-out;`}
         >
           <p>
-            The animation starts quickly, and decelerates gradually until the
-            end.
+            Animasi dimulai dengan cepat, dan melambat secara bertahap hingga
+            akhir.
           </p>
         </SectionExample.Property>
 
@@ -98,11 +98,11 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: ease-in-out;`}
         >
           <p>
-            Like <code>ease</code>, but more pronounced.
+            Seperti <code>ease</code>, tetapi lebih jelas.
           </p>
           <p>
-            The animation starts quickly, and decelerates gradually until the
-            end.
+            Animasi dimulai dengan cepat, dan melambat secara bertahap hingga
+            akhir.
           </p>
         </SectionExample.Property>
 
@@ -123,7 +123,7 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: linear;`}
         >
           <p>
-            The animation has a <em>*constant speed</em>.
+            Animasi memiliki <em>* kecepatan konstan</em>.
           </p>
         </SectionExample.Property>
 
@@ -144,8 +144,8 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: step-start;`}
         >
           <p>
-            The animation jumps <em>instantly</em> to the{" "}
-            <strong>final state</strong>.
+            Animasi melompat <em>seketika</em> ke{" "}
+            <strong>keadaan akhir</strong>.
           </p>
         </SectionExample.Property>
 
@@ -166,9 +166,9 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: step-end;`}
         >
           <p>
-            The animation stays at the <strong>initial state</strong> until the
-            end, when it <em>instantly</em> jumps to the{" "}
-            <strong>final state</strong>.
+            Animasi tetap pada <strong>keadaan awal</strong> sampai
+            berakhir, saat <em>langsung</em> melompat ke {""}
+            <strong>keadaan akhir</strong>.
           </p>
         </SectionExample.Property>
 
@@ -189,11 +189,10 @@ const AnimationTimingFunction = () => (
           declaration={`animation-timing-function: steps(4, end);`}
         >
           <p>
-            By using <code>steps()</code> with an <strong>integer</strong>, you
-            can define a specific <em>number</em> of steps before reaching the
-            end. The state of the element will <em>not</em> vary gradually, but
-            rather <strong>jump</strong> from state to state in separate
-            instants.
+            Dengan menggunakan <code>step()</code> dan <strong>bilangan bulat</strong> sebgai nilainya, kamu
+            dapat menentukan jumlah langkah tertentu sebelum mencapai akhir. 
+            Status elemen <em>tidak</em> akan bervariasi secara bertahap, melainkan{" "}
+            <strong>melompat</strong> dari satu <i>state</i> ke <i>state</i> yang lain dalam waktu terpisah.
           </p>
         </SectionExample.Property>
 

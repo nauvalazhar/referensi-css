@@ -5,7 +5,7 @@ const AlignSelf = () => (
   <React.Fragment>
     <style>{`
         .align-self { align-items: center;background: hsl(0, 0%, 95%);display: flex;height: 200px;justify-content: center;padding: 0; }
-        .align-self .square { height: 50px;margin: 0 2px;width: calc(20% - 4px); }.align-self .square:nth-child(2) { background: #05ffb0;color: #310736; }.align-self .square:nth-child(4) { height: 75px; }.align-self .line { left: 2px;position: absolute;right: 2px; }.align-self .line--default { top: 50%; }.align-self .line--default:before { content: "Items"; }.align-self .line--red:before { content: "Self"; }
+        .align-self .square { height: 50px;margin: 0 2px;width: calc(20% - 4px); }.align-self .square:nth-child(2) { background: #05ffb0;color: #310736; }.align-self .square:nth-child(4) { height: 75px; }.align-self .line { left: 2px;position: absolute;right: 2px; }.align-self .line--default { top: 50%; }.align-self .line--default:before { content: "Item"; }.align-self .line--red:before { content: "Self"; }
         #align-self-auto{ align-self:auto;}
         #align-self-auto .target { align-self: auto; }
         #align-self-flex-start{ align-self:flex-start;}
@@ -25,8 +25,7 @@ const AlignSelf = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/align-self"
       description=<React.Fragment>
         <p>
-          Works like <code>align-items</code>, but applies only to a{" "}
-          <strong>single</strong> flexbox item, instead of <em>all</em> of them.
+          Berfungsi seperti <code>align-items</code>, tapi hanya berlaku untuk satu item flexbox, bukan semuanya.
         </p>
       </React.Fragment>
     >
@@ -36,7 +35,7 @@ const AlignSelf = () => (
           declaration={`align-self: auto;`}
         >
           <p>
-            The target will use the value of <code>align-items</code>.
+            Target akan menggunakan nilai (<i>value</i>) dari properti <code>align-items</code>.
           </p>
         </SectionExample.Property>
 
@@ -56,13 +55,10 @@ const AlignSelf = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-self: flex-start;`}>
           <p>
-            If the container has <code>align-items: center</code> and the{" "}
-            <strong>target</strong> has <code>align-self: flex-start</code>,
-            only the target will be at the start of the cross axis.
+            Bila <i>container</i> memiliki <code>align-items: center</code> dan target memiliki <code>align-self: flex-start</code>, hanya target yang akan berada di awal <i>cross-axis</i>.
           </p>
           <p>
-            By default, this means it will be aligned{" "}
-            <strong>vertically</strong> at the <strong>top</strong>.
+            Secara bawaan, ini berarti akan disejajarkan secara vertikal di atas (<i>top</i>).
           </p>
         </SectionExample.Property>
 
@@ -85,13 +81,10 @@ const AlignSelf = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-self: flex-end;`}>
           <p>
-            If the container has <code>align-items: center</code> and the{" "}
-            <strong>target</strong> has <code>align-self: flex-end</code>, only
-            the target will be at the end of the cross axis.
+            Bila <i>container</i> memiliki <code>align-items: center</code> dan target memiliki <code>align-self: flex-end</code>, hanya target yang akan berada di ujung <i>cross-axis</i>.
           </p>
           <p>
-            By default, this means it will be aligned{" "}
-            <strong>vertically</strong> at the <strong>bottom</strong>.
+            Secara bawaan, ini berarti akan disejajarkan secara vertikal di bawah (<i>bottom</i>).
           </p>
         </SectionExample.Property>
 
@@ -114,13 +107,10 @@ const AlignSelf = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-self: center;`}>
           <p>
-            If the container has <code>align-items: flex-start</code> and the{" "}
-            <strong>target</strong> has <code>align-self: center</code>, only
-            the target will be at the center of the cross axis.
+            Bila <i>container</i> memiliki <code>align-items: flex-start</code> dan target memiliki <code>align-self: center</code>, hanya target yang akan berada di tengah <i>cross-axis</i>.
           </p>
           <p>
-            By default, this means it will be{" "}
-            <strong>vertically centered</strong>.
+            Secara bawaan, ini berarti posisinya berada di tengah secara vertikal.
           </p>
         </SectionExample.Property>
 
@@ -143,13 +133,10 @@ const AlignSelf = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-self: baseline;`}>
           <p>
-            If the container has <code>align-items: center</code> and the{" "}
-            <strong>target</strong> has <code>align-self: baseline</code>, only
-            the target will be at the baseline of the cross axis.
+            Bila <i>container</i> memiliki <code>align-items: center</code> dan target memiliki <code>align-self: baseline</code>, hanya target yang akan berada di garis dasar (<i>baseline</i>) <i>cross-axis</i>.
           </p>
           <p>
-            By default, this means it will be aligned along the basline of the
-            text.
+            Secara bawaan, ini berarti akan diratakan sepanjang garis dasar (<i>baseline</i>) teks.
           </p>
         </SectionExample.Property>
 
@@ -172,9 +159,7 @@ const AlignSelf = () => (
       <SectionExample>
         <SectionExample.Property declaration={`align-self: stretch;`}>
           <p>
-            If the container has <code>align-items: center</code> and the{" "}
-            <strong>target</strong> has <code>align-self: stretch</code>, only
-            the target will stretch along the whole cross axis.
+            Bila <i>container</i> memiliki <code>align-items: center</code> dan target memiliki <code>align-self: stretch</code>, hanya target yang akan meregang sepanjang keseluruhan <i>cross-axis</i>.
           </p>
         </SectionExample.Property>
 

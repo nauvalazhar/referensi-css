@@ -15,7 +15,7 @@ const AnimationName = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-name"
       description=<React.Fragment>
         <p>
-          Defines <em>which</em> animation keyframes to use.
+          Mendefinisikan <i>keyframe</i> animasi yang akan digunakan.
         </p>
       </React.Fragment>
       animation={true}
@@ -25,7 +25,7 @@ const AnimationName = () => (
           isDefault={true}
           declaration={`animation-name: none;`}
         >
-          <p>If no animation name is specified, no animation is played.</p>
+          <p>Bila tidak ada nama animasi yang didefinisikan, tidak ada animasi yang dimainkan.</p>
         </SectionExample.Property>
 
         <SectionExample.Preview>
@@ -43,11 +43,11 @@ const AnimationName = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-name: fadeIn;`}>
           <p>
-            If a name is specified, the <strong>keyframes</strong> matching that
-            name will be used.
+            Bila sebuah nama didefinisikan, cocok dengan sebuah <i>keyframe</i>, dengan itu
+            nama tersebut akan digunakan.
           </p>
           <p>
-            For example, the <code>fadeIn</code> animation looks like this:
+            Misalnya, animasi <code>fadeIn</code> terlihat seperti ini:
           </p>
           <p></p>
           <pre>{`@keyframes fadeIn {
@@ -76,7 +76,7 @@ const AnimationName = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-name: moveRight;`}>
           <p>
-            Another example: the <code>moveRight</code> animation:
+            Contoh lain: animasi <code>moveRight</code>:
           </p>
           <p></p>
           <pre>{`@keyframes moveRight {

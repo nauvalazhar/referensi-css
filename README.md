@@ -26,6 +26,7 @@ Daftar properti yang sudah diterjemahkan:
 - animation-duration
 - animation-fill-mode
 - animation-iteration-count
+- animation-name
 
 ## Getting Started
 

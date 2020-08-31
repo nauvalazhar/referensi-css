@@ -13,7 +13,7 @@ const AnimationPlayState = () => (
       property="animation-play-state"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-play-state"
       description=<React.Fragment>
-        <p>Defines if an animation is playing or not.</p>
+        <p>Menentukan apakah animasi sedang dimainkan atau tidak.</p>
       </React.Fragment>
       animation={true}
     >
@@ -23,9 +23,9 @@ const AnimationPlayState = () => (
           declaration={`animation-play-state: running;`}
         >
           <p>
-            If the <code>animation-duration</code> and{" "}
-            <code>animation-name</code> are defined, the animation will start
-            playing automatically.
+            Bila <code>animation-duration</code> dan{" "}
+            <code>animation-name</code> didefinisikan, animasi akan dimulai
+            bermain secara otomatis.
           </p>
         </SectionExample.Property>
 
@@ -44,19 +44,19 @@ const AnimationPlayState = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-play-state: paused;`}>
           <p>
-            The animation is set paused at the <strong>first keyframe</strong>.
+            Animasi disetel sebagai jeda pada <i>keyframe</i> pertama.
           </p>
-          <p>
-            This is different than having either no{" "}
-            <code>animation-duration</code> or <code>animation-name</code> at
-            all. If the animation is paused, the style applied is that of the{" "}
-            <em>first</em> keyframe, and <strong>not</strong> the default style.
+          <p>            
+            Ini berbeda dengan tidak memiliki{" "}
+            <code>animation-duration</code> atau <code>animation-name</code>.{" "}
+            Jika animasi dijeda, gaya yang diterapkan adalah gaya{" "}
+            <i>keyframe</i> pertama, dan <strong>bukan</strong> gaya bawaan.
           </p>
-          <p>
-            In this example, the square is visible by default, but the on the
-            first keyframe of <code>fadeAndMove</code>, the <code>opacity</code>{" "}
-            is set to <code>0</code>. When paused, the animation will be "stuck"
-            on this first keyframe, and will thus be invisible.
+          <p>            
+            Dalam contoh ini, bujur sangkar terlihat secara bawaan, tetapi di
+            <i>keyframe</i> pertama dari <code>fadeAndMove</code>, <code>opacity</code>{" "}
+            disetel ke <code>0</code>. Saat dijeda, animasi akan "macet"
+            pada <i>keyframe</i> pertama ini, dan karenanya tidak akan terlihat.
           </p>
           <p></p>
           <pre>{`@keyframes fadeAndMove {

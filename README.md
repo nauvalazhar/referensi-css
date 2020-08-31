@@ -24,6 +24,7 @@ Daftar properti yang sudah diterjemahkan:
 - animation-delay
 - animation-direction
 - animation-duration
+- animation-fill-mode
 - animation-iteration-count
 
 ## Getting Started

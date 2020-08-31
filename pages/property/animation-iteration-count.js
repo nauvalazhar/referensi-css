@@ -14,7 +14,7 @@ const AnimationIterationCount = () => (
       property="animation-iteration-count"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-iteration-count"
       description=<React.Fragment>
-        <p>Defines how many times the animation is played.</p>
+        <p>Mendefinisikan berapa kali animasi dimainkan.</p>
       </React.Fragment>
       animation={true}
     >
@@ -24,7 +24,7 @@ const AnimationIterationCount = () => (
           declaration={`animation-iteration-count: 1;`}
         >
           <p>
-            The animation will only play <strong>once</strong>.
+            Animasi hanya akan diputar <strong>sekali</strong>.
           </p>
         </SectionExample.Property>
 
@@ -43,8 +43,8 @@ const AnimationIterationCount = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-iteration-count: 2;`}>
           <p>
-            You can use <strong>integer values</strong> to define a{" "}
-            <em>specific</em> amount of times the animation will play.
+            Anda dapat menggunakan <strong>nilai integer</strong> untuk mendefinisikan{" "}
+            <em>frekuensi tertentu</em> animasi akan diputar.
           </p>
         </SectionExample.Property>
 
@@ -65,8 +65,8 @@ const AnimationIterationCount = () => (
           declaration={`animation-iteration-count: infinite;`}
         >
           <p>
-            By using the keyword <code>infinite</code>, the animation will play
-            indefinitely.
+            Dengan menggunakan kata kunci <code>infinite</code>, animasi akan diputar
+            tanpa batas (ya, tidak akan pernah berhenti).
           </p>
         </SectionExample.Property>
 

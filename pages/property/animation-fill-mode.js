@@ -16,10 +16,9 @@ const AnimationFillMode = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/animation-fill-mode"
       description=<React.Fragment>
         <p>
-          Defines what happens <strong>before</strong> an animation starts and{" "}
-          <strong>after</strong> it ends. The fill mode allows to tell the
-          browser if the animation’s styles should also be applied{" "}
-          <em>outside</em> of the animation.
+          Mendefinisikan apa yang terjadi <strong>sebelum</strong> animasi dimulai dan{" "}
+          <strong>setelah</strong> animasi berakhir. Properti ini memungkinkan untuk memberi tahu
+          peramban jika gaya animasi juga harus diterapkan <em>di luar</em> animasi.
         </p>
       </React.Fragment>
       animation={true}
@@ -30,9 +29,9 @@ const AnimationFillMode = () => (
           declaration={`animation-fill-mode: none;`}
         >
           <p>
-            The <em>animation</em> styles do not affect the <em>default</em>{" "}
-            style: the element is set to its default state before the animation
-            starts, and returns to that default state after the animation ends.
+            Gaya <em>animasi</em> tidak memengaruhi <em>default style</em>:{" "}
+            elemen disetel ke keadaan bawaannya sebelum animasi{" "}
+            dimulai, dan kembali ke status bawaan tersebut setelah animasi berakhir.
           </p>
         </SectionExample.Property>
 
@@ -51,8 +50,8 @@ const AnimationFillMode = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-fill-mode: forwards;`}>
           <p>
-            The last styles applied at the end of the animation are retained{" "}
-            <em>afterwards</em>.
+            Gaya terakhir yang diterapkan di akhir animasi dipertahankan{" "}
+            <em>setelahnya</em> (setelah animasi berakhir).
           </p>
         </SectionExample.Property>
 
@@ -73,8 +72,8 @@ const AnimationFillMode = () => (
           declaration={`animation-fill-mode: backwards;`}
         >
           <p>
-            The animation's styles will already be applied <em>before</em> the
-            animation actually starts.
+            Gaya animasi akan diterapkan <em>sebelum</em>{" "}
+            animasi benar-benar dimulai.
           </p>
         </SectionExample.Property>
 
@@ -93,8 +92,7 @@ const AnimationFillMode = () => (
       <SectionExample>
         <SectionExample.Property declaration={`animation-fill-mode: both;`}>
           <p>
-            The styles are applied <em>before</em> and <em>after</em> the
-            animation plays.
+            Gaya diterapkan <em>sebelum</em> dan <em>setelah</em> animasi dimainkan.
           </p>
         </SectionExample.Property>
 

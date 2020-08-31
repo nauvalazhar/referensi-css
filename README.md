@@ -13,6 +13,7 @@ Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan
 - container
 - cross/main axis
 - inline/block
+- keyframe
 - tunggu, masih dicari lagi ...
 
 ## Done
@@ -22,6 +23,8 @@ Daftar properti yang sudah diterjemahkan:
 - align-self
 - animation-delay
 - animation-direction
+- animation-duration
+- animation-iteration-count
 
 ## Getting Started
 

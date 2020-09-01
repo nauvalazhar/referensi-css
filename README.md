@@ -44,6 +44,13 @@ Daftar properti yang sudah diterjemahkan.
 - background-position
 - background-repeat
 - background-size
+- background
+
+#### Border
+- border-bottom-color
+- border-bottom-left-radius
+- border-bottom-right-radius
+- border
 
 ## Getting Started
 

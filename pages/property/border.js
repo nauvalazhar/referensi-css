@@ -13,7 +13,7 @@ const Border = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/border"
       description=<React.Fragment>
         <p>
-          Shorthand property for{" "}
+          Properti steno (<strong>shorthand</strong>) untuk{" "}
           <code className="shorthand">
             <Link href={`/property/border-width`}>
               <a className="hash" data-property-name="border-width">
@@ -28,7 +28,7 @@ const Border = () => (
               </a>
             </Link>
           </code>{" "}
-          and{" "}
+          dan{" "}
           <code className="shorthand">
             <Link href={`/property/border-color`}>
               <a className="hash" data-property-name="border-color">
@@ -43,7 +43,7 @@ const Border = () => (
       <SectionExample>
         <SectionExample.Property declaration={`border: 4px dotted red;`}>
           <p>
-            The <strong>order</strong> is important:
+            Urutannya sangat penting:
           </p>
           <ul>
             <li>width</li>
@@ -65,9 +65,8 @@ const Border = () => (
       <SectionExample>
         <SectionExample.Property declaration={`border: 2px solid;`}>
           <p>
-            Only the <em>color</em> is <strong>optional</strong>. If you omit
-            it, the color applied will be the color of the <strong>text</strong>
-            .
+            Hanya bagian <i>color</i> yang tidak wajib. Bila kamu tidak mengisinya,{" "}
+            warna yang akan diterapkan adalah warna dari teks.
           </p>
         </SectionExample.Property>
 

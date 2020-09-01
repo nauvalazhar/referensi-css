@@ -15,11 +15,11 @@ const BorderBottomColor = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/border-bottom-color"
       description=<React.Fragment>
         <p>
-          Like{" "}
+          Seperti{" "}
           <code className="shorthand">
             <a href={`http://cssreference.io/#border-color`}>border-color</a>
           </code>
-          , but for the <strong>bottom</strong> border only.
+          , tapi untuk <i>border</i> bagian bawah saja.
         </p>
       </React.Fragment>
     >
@@ -28,9 +28,9 @@ const BorderBottomColor = () => (
           declaration={`border-bottom-color: transparent;`}
         >
           <p>
-            Applies a <strong>transparent</strong> color to the bottom border.
-            The bottom border will still take up the <em>space</em> defined by
-            the <code>border-width</code> value.
+            Menerapkan warna <strong>transparan</strong> ke <i>border</i> bagian bawah.
+            Bagian bawah <i>border</i> akan tetap menggunakan spasi yang didefinisikan {" "}
+            oleh nilai <code>border-width</code>.
           </p>
         </SectionExample.Property>
 
@@ -47,12 +47,12 @@ const BorderBottomColor = () => (
       <SectionExample>
         <SectionExample.Property declaration={`border-bottom-color: red;`}>
           <p>
-            You can use one of the{" "}
+            Kamu dapat menggunakan satu dari{" "}
             <strong>
               <a
                 href={`https://developer.mozilla.org/en-US/docs/Web/CSS/color_value`}
               >
-                140+ color names
+                140+ nama warna
               </a>
             </strong>
             .
@@ -72,9 +72,9 @@ const BorderBottomColor = () => (
       <SectionExample>
         <SectionExample.Property declaration={`border-bottom-color: #05ffb0;`}>
           <p>
-            You can use <strong>hexadecimal</strong> color codes,{" "}
+            Kamu dapat menggunakan kode warna <strong>heksadesimal</strong>,{" "}
             <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>,{" "}
-            <code>hsla()</code>...
+            <code>hsla()</code>.
           </p>
         </SectionExample.Property>
 

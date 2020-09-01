@@ -15,7 +15,7 @@ const BorderBottomRightRadius = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/border-bottom-right-radius"
       description=<React.Fragment>
         <p>
-          Defines the <strong>radius</strong> of the bottom right corner.
+          Menentukan <strong>radius</strong> sudut kanan bawah.
         </p>
       </React.Fragment>
     >
@@ -24,7 +24,7 @@ const BorderBottomRightRadius = () => (
           isDefault={true}
           declaration={`border-bottom-right-radius: 0;`}
         >
-          <p>Removes any border radius.</p>
+          <p>Menghapus <i>border radius</i> apa pun.</p>
         </SectionExample.Property>
 
         <SectionExample.Preview>
@@ -42,7 +42,7 @@ const BorderBottomRightRadius = () => (
           declaration={`border-bottom-right-radius: 20px;`}
         >
           <p>
-            You can use <strong>pixel</strong> values.
+            Kamu dapat menggunakan nilai <strong>piksel</strong>.
           </p>
         </SectionExample.Property>
 
@@ -61,9 +61,9 @@ const BorderBottomRightRadius = () => (
           declaration={`border-bottom-right-radius: 50%;`}
         >
           <p>
-            You can use <strong>percentage</strong> values. In this example, the
-            radius starts halfway on the <em>bottom</em> border, and ends
-            halfway on the <em>right</em> border.
+            Kamu dapat menggunakan nilai <strong>persentase</strong>. Dalam contoh ini,{" "}
+            radius mulai setengah jalan di <em>bawah</em> <i>border</i>, dan berakhir{" "}
+            setengah jalan di <em>kanan</em> <i>border</i>.
           </p>
         </SectionExample.Property>
 
@@ -82,9 +82,8 @@ const BorderBottomRightRadius = () => (
           declaration={`border-bottom-right-radius: 20px 50%;`}
         >
           <p>
-            If you set <strong>two values</strong>, the first one is for the{" "}
-            <em>bottom</em> border, the second one for the <em>right</em>{" "}
-            border.
+            Bila kamu mengatur 2 nilai, nilai yang pertama adalah untuk bagian <i>bawah</i> <i>border</i>,{" "}
+            nilai yang kedua adalah untuk bagian <i>kanan border</i>.
           </p>
         </SectionExample.Property>
 

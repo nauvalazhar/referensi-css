@@ -15,8 +15,8 @@ const BackgroundRepeat = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-repeat"
       description=<React.Fragment>
         <p>
-          Defines how the background image repeats itself across the element's
-          background, starting from the background position.
+          Mendefinisikan bagaimana gambar latar berulang di seluruh latar belakang elemen,{" "}
+          mulai dari posisi latar belakang.
         </p>
       </React.Fragment>
     >
@@ -26,8 +26,8 @@ const BackgroundRepeat = () => (
           declaration={`background-repeat: repeat;`}
         >
           <p>
-            The background image will repeat itself both{" "}
-            <strong>horizontally</strong> and <strong>vertically</strong>.
+            Gambar latar akan mengulang keduanya:{" "}
+            secara horizontal dan secara vertikal.
           </p>
         </SectionExample.Property>
 
@@ -44,8 +44,7 @@ const BackgroundRepeat = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-repeat: repeat-x;`}>
           <p>
-            The background image will only repeat itself{" "}
-            <strong>horizontally</strong>.
+            Gambar latar hanya akan berulang secara <strong>horizontal</strong>.
           </p>
         </SectionExample.Property>
 
@@ -62,8 +61,7 @@ const BackgroundRepeat = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-repeat: repeat-y;`}>
           <p>
-            The background image will only repeat itself{" "}
-            <strong>vertically</strong>.
+            Gambar latar hanya akan berulang secara <strong>vertikal</strong>.
           </p>
         </SectionExample.Property>
 
@@ -80,7 +78,7 @@ const BackgroundRepeat = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-repeat: no-repeat;`}>
           <p>
-            The background image will only appear <strong>once</strong>.
+            Gambar latar hanya akan muncul <strong>sekali</strong> (tidak diulang).
           </p>
         </SectionExample.Property>
 

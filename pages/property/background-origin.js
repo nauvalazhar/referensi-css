@@ -14,7 +14,7 @@ const BackgroundOrigin = () => (
       property="background-origin"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-origin"
       description=<React.Fragment>
-        <p>Defines the origin of the background image.</p>
+        <p>Mendefinisikan asal gambar latar belakang.</p>
       </React.Fragment>
     >
       <SectionExample>
@@ -23,8 +23,8 @@ const BackgroundOrigin = () => (
           declaration={`background-origin: padding-box;`}
         >
           <p>
-            The background image starts at the <em>edge</em> of the border:
-            within padding but <em>not</em> the border.
+            Gambar latar belakang dimulai di tepi <i>border</i>:
+            dalam <i>padding</i> tetapi <em>tidak</em> dengan <i>border</i>.
           </p>
         </SectionExample.Property>
 
@@ -41,7 +41,7 @@ const BackgroundOrigin = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-origin: border-box;`}>
           <p>
-            The background image starts <strong>under</strong> the border.
+            Latar belakang gambar dimulai <strong>di bawah</strong> <i>border</i>.
           </p>
         </SectionExample.Property>
 
@@ -60,8 +60,8 @@ const BackgroundOrigin = () => (
           declaration={`background-origin: content-box;`}
         >
           <p>
-            The background image only starts at the edge of the <em>content</em>
-            : it doesn't include the padding, nor the border.
+            Latar belakang gambar hanya dimulai di tepi konten:{" "}
+            itu tidak termasuk <i>padding</i>, maupun <i>border</i>.
           </p>
         </SectionExample.Property>
 

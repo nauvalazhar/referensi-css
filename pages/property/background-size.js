@@ -15,7 +15,7 @@ const BackgroundSize = () => (
       property="background-size"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-size"
       description=<React.Fragment>
-        <p>Defines the size of the background image.</p>
+        <p>Mendefinisikan ukuran gambar latar.</p>
       </React.Fragment>
     >
       <SectionExample>
@@ -24,13 +24,12 @@ const BackgroundSize = () => (
           declaration={`background-size: auto auto;`}
         >
           <p>
-            The background image will retain its <strong>original</strong> size.
+            Gambar latar akan mempertahankan ukuran aslinya.
           </p>
           <p>
-            For example, this background image is{" "}
-            <strong>960px by 640px</strong> large. Its aspect ratio is{" "}
-            <strong>3 by 2</strong>. It's bigger than its container (which is
-            150px high) and will thus be <strong>clipped</strong>.
+            Contohnya, gambar latar ini sebesar <strong>960px x 640px</strong>.{" "}
+            Rasio aspeknya adalah <strong>3 x 2</strong>. Ini lebih besar dari <i>container</i>-nya{" "}
+            (yang tingginya 150px) dan dengan demikian akan <strong>dipotong</strong>.
           </p>
         </SectionExample.Property>
 
@@ -47,14 +46,14 @@ const BackgroundSize = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-size: 120px 80px;`}>
           <p>
-            You can specify a size in <strong>pixels</strong>:
+            Kamu dapat menentukan ukuran gambar latar dalam <strong>piksel</strong>.
           </p>
           <ul>
             <li>
-              the first value is the <strong>horizontal</strong> size
+              nilai pertama adalah ukuran horizontal
             </li>
             <li>
-              the second is the <strong>vertical</strong> size
+              nilai kedua adalah ukuran vertikal
             </li>
           </ul>
         </SectionExample.Property>
@@ -72,9 +71,9 @@ const BackgroundSize = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-size: 100% 50%;`}>
           <p>
-            You can use <strong>percentage</strong> values as well. Beware that
-            this can alter the <strong>aspect ratio</strong> of the background
-            image, and lead to unexpected results.
+            Kamu juga dapat menggunakan nilai <strong>persentase</strong>.{" "}
+            Waspadalah ini dapat mengubah rasio aspek gambar latar, {" "}
+            dan mengarah pada hasil yang tidak terduga.
           </p>
         </SectionExample.Property>
 
@@ -91,8 +90,8 @@ const BackgroundSize = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-size: contain;`}>
           <p>
-            The keyword <code>contain</code> will resize the background image to
-            make sure it remains <strong>fully visible</strong>.
+            Kata kunci <code>contain</code> akan mengubah ukuran gambar latar {" "}
+            untuk memastikan terlihat sepenuhnya.
           </p>
         </SectionExample.Property>
 
@@ -109,8 +108,8 @@ const BackgroundSize = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-size: cover;`}>
           <p>
-            The keyword <code>cover</code> will resize the background image to
-            make sure the element is <strong>fully covered</strong>.
+            Kata kunci <code>cover</code> akan mengubah ukuran gambar latar {" "}
+            untuk memastikan elemen ditutup sepenuhnya.
           </p>
         </SectionExample.Property>
 

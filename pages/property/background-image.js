@@ -21,7 +21,7 @@ const BackgroundImage = () => (
       property="background-image"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-image"
       description=<React.Fragment>
-        <p>Defines an image as the background of the element.</p>
+        <p>Mendefinisikan gambar sebagai latar belakang elemen.</p>
       </React.Fragment>
     >
       <SectionExample>
@@ -29,7 +29,7 @@ const BackgroundImage = () => (
           isDefault={true}
           declaration={`background-image: none;`}
         >
-          <p>Removes any background image.</p>
+          <p>Menghapus gambar latar apa pun.</p>
         </SectionExample.Property>
 
         <SectionExample.Preview>
@@ -47,10 +47,9 @@ const BackgroundImage = () => (
           declaration={`background-image: url(/images/jt.png);`}
         >
           <p>
-            Uses the image defined in the <strong>url</strong> path. This path
-            can either be <em>relative</em> (to the css file) or{" "}
-            <em>absolute</em> (like{" "}
-            <code>http://cssreference.io/images/jt.png</code>).
+            Menggunakan gambar yang ditentukan di dalam jalur <strong>url</strong>.{" "}
+            Jalur ini bisa juga <i>relative</i> (ke berkas CSS) atau{" "}
+            <i>absolute</i> (seperti <code>https://blabla.com/images/jt.png</code>).
           </p>
         </SectionExample.Property>
 
@@ -69,17 +68,16 @@ const BackgroundImage = () => (
           declaration={`background-image: linear-gradient(red, blue);`}
         >
           <p>
-            You can define a <strong>linear gradient</strong> as the background
-            image.
+            Kamu dapat mendefinisikan <strong>linear gradient</strong> sebagai gambar latar.
           </p>
           <p>
-            You need to define at least <strong>two colors</strong>. The first
-            one will start at the top, the second one at the bottom.
+            Kamu perlu mendefinisikan setidaknya dua warna. Warna pertama akan dimulai di bagian atas,{" "}
+            warna kedua di bagian bawah.
           </p>
           <p>
-            The default angle is <code>to bottom</code> (or <code>180deg</code>
-            ), which means the gradient is <strong>vertical</strong>, starting
-            at the top, ending at the bottom of the element.
+            Sudut bawaanya adalah <code>to bottom</code> (atau <code>180deg</code>),
+            yang berarti gradiennya <strong>vertikal</strong>, dimulai di bagian atas,{" "}
+            berakhir di bagian bawah elemen.
           </p>
         </SectionExample.Property>
 
@@ -98,17 +96,16 @@ const BackgroundImage = () => (
           declaration={`background-image: linear-gradient(45deg, red, blue);`}
         >
           <p>
-            You can specify an <strong>angle</strong>, either in{" "}
-            <strong>degrees</strong>, or with keywords.
+            Kamu dapat menentukan <strong>sudut</strong>, baik dalam <strong>derajat</strong>,{" "}
+            atau dengan kata kunci.
           </p>
           <p>
-            When using degress, you specify the <em>direction</em> of the
-            gradient, or when it ends. So <code>0deg</code> means the the{" "}
-            <strong>top</strong> of the element, like 12:00 on a clock.
+            Ketika menggunakan derajat, kamu menentukan <i>arah</i> dari gradien,{" "}
+            atau saat berakhir. Jadi <code>0deg</code> berarti bagian atas elemen,{" "}
+            seperti 12:00 di jam.
           </p>
           <p>
-            In this example, <code>45deg</code> means 2:30, or the top right
-            corner.
+            Dalam contoh ini, <code>45deg</code> berarti 2:30, atau sudut atas kanan.
           </p>
         </SectionExample.Property>
 
@@ -127,12 +124,11 @@ const BackgroundImage = () => (
           declaration={`background-image: radial-gradient(green, purple);`}
         >
           <p>
-            You can define a <strong>radial gradient</strong> as the background
-            image.
+            Kamu dapat mendefinisikan <strong>radial gradient</strong> sebagai gambar latar.
           </p>
           <p>
-            You need to define at least <strong>two colors</strong>. The first
-            one will be at the center, the second one at the edges.
+            Kamu perlu mendefinisikan setidaknya 2 warna. Warna pertama akan berada di tengah,{" "}
+            warna kedua di bagian pinggir.
           </p>
         </SectionExample.Property>
 
@@ -151,8 +147,8 @@ const BackgroundImage = () => (
           declaration={`background-image: radial-gradient(circle, green, purple);`}
         >
           <p>
-            You can specify the <strong>shape</strong> of the radial gradient:{" "}
-            <strong>circle</strong> or <strong>ellipse</strong> (default).
+            Kamu dapat mendefinisikan <strong>shape</strong> dari <i>radial gradient</i>:
+            <strong>circle</strong> atau <strong>ellipse</strong> (bawaan).
           </p>
         </SectionExample.Property>
 
@@ -171,8 +167,7 @@ const BackgroundImage = () => (
           declaration={`background-image: radial-gradient(circle, green 0%, purple 20%, orange 100%);`}
         >
           <p>
-            You can specify <strong>color stops</strong> using percentage
-            values.
+            Kamu dapat menentukan <strong>color stops</strong> menggunakan nilai persentase.
           </p>
         </SectionExample.Property>
 
@@ -191,8 +186,7 @@ const BackgroundImage = () => (
           declaration={`background-image: radial-gradient(circle closest-side, green 0%, purple 20%, orange 100%);`}
         >
           <p>
-            You can specify <em>where</em> the gradient should{" "}
-            <strong>end</strong>:
+            Kamu dapat menentukan <i>di mana</i> gradien harus berakhir:
           </p>
           <ul>
             <li>
@@ -225,11 +219,11 @@ const BackgroundImage = () => (
           declaration={`background-image: radial-gradient(circle closest-side at 45px 45px, green 0%, purple 20%, orange 100%);`}
         >
           <p>
-            Like with the{" "}
+            Seperti 
             <a href={`http://cssreference.io/#background-position`}>
               <code>background-position</code>
             </a>
-            , you can specify the <strong>position</strong> of the gradient.
+            , kamu dapat menentukan <strong>position</strong> (posisi) dari gradien.
           </p>
         </SectionExample.Property>
 

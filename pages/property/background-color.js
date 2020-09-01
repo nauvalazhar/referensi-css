@@ -17,7 +17,7 @@ const BackgroundColor = () => (
       property="background-color"
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-color"
       description=<React.Fragment>
-        <p>Defines the color of the element's background.</p>
+        <p>Mendefinisikan warna latar belakang elemen.</p>
       </React.Fragment>
     >
       <SectionExample>
@@ -26,9 +26,8 @@ const BackgroundColor = () => (
           declaration={`background-color: transparent;`}
         >
           <p>
-            By default, the background color is <strong>transparent</strong>,
-            basically meaning that there is <strong>no</strong> background
-            color.
+            Secara bawaan, warna latar belakang adalah <strong>transparan</strong>,{" "}
+            pada dasarnya berarti tidak ada warna latar belakang.
           </p>
         </SectionExample.Property>
 
@@ -45,12 +44,12 @@ const BackgroundColor = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-color: red;`}>
           <p>
-            You can use one of the{" "}
+            Kamu dapat menggunakan salah satu dari{" "}
             <strong>
               <a
                 href={`https://developer.mozilla.org/en-US/docs/Web/CSS/color_value`}
               >
-                140+ color names
+                140+ nama warna
               </a>
             </strong>
             .
@@ -70,7 +69,7 @@ const BackgroundColor = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-color: #05ffb0;`}>
           <p>
-            You can use <strong>hexadecimal</strong> color codes.
+            Kamu dapat menggunakan kode warna <strong>hexadecimal</strong>.
           </p>
         </SectionExample.Property>
 
@@ -89,22 +88,21 @@ const BackgroundColor = () => (
           declaration={`background-color: rgb(50, 115, 220);`}
         >
           <p>
-            You can use <strong>rgb()</strong> color codes:
+            Kamu dapat menggunakan kode warna <strong>rgb()</strong>:
           </p>
           <ul>
             <li>
-              the first value is for <code>red</code>
+              nilai pertama untuk <code>merah</code>
             </li>
             <li>
-              the second value is for <code>green</code>
+              nilai kedua untuk <code>hijau</code>
             </li>
             <li>
-              the third value is for <code>blue</code>
+              nilai ketiga untuk <code>biru</code>
             </li>
           </ul>
           <p>
-            Each of them can have a value between <strong>0</strong> and{" "}
-            <strong>255</strong>.
+            Masing-masing dari mereka dapat memiliki nilai dari <strong>0</strong> hingga <strong>255</strong>.
           </p>
         </SectionExample.Property>
 
@@ -123,20 +121,19 @@ const BackgroundColor = () => (
           declaration={`background-color: rgba(50, 115, 220, 0.3);`}
         >
           <p>
-            You can use <strong>rgba()</strong> color codes:
+            Kamu dapat menggunakan kode warna <strong>rgba()</strong>:
           </p>
           <ul>
             <li>
-              the first 3 values are for <code>rgb</code>
+              3 nilai pertama untuk <code>rgb</code>
             </li>
             <li>
-              the 4th value is for the <code>alpha</code> channel and defines
-              the opacity of the color
+              nilai keempat untuk <code>alpha</code> <i>channel</i> dan mendefinisikan{" "}
+              transparansi dari warna
             </li>
           </ul>
           <p>
-            The alpha value can go from zero <strong>0</strong> (transparent) to
-            one <strong>1</strong> (opaque).
+            Nilai <i>alpha</i> dapat diisi <strong>0</strong> (transparan) hingga satu <strong>1</strong> (buram).
           </p>
         </SectionExample.Property>
 
@@ -155,20 +152,20 @@ const BackgroundColor = () => (
           declaration={`background-color: hsl(14, 100%, 53%);`}
         >
           <p>
-            You can use <strong>hsl()</strong> color codes:
+            Kamu dapat menggunakan kode warna <strong>hsl</strong>:
           </p>
           <ul>
             <li>
-              the first value is for <code>hue</code> and can go from{" "}
-              <strong>0</strong> to <strong>359</strong>
+              nilai pertama untuk <code>hue</code> dan dapat diisi dari <strong>0</strong>{" "}
+              hingga <strong>359</strong>
             </li>
             <li>
-              the second value is for <code>saturation</code> and go from{" "}
-              <strong>0%</strong> to <strong>100%</strong>
+              nilai kedua untuk <code>saturation</code> dan dapat diisi{" "}
+              <strong>0%</strong> hingga <strong>100%</strong>
             </li>
             <li>
-              the third value is for <code>luminosity</code> and go from{" "}
-              <strong>0%</strong> to <strong>100%</strong>
+              nilai keempat untuk <code>luminosity</code> dan dapat diisi{" "}
+              <strong>0%</strong> hingga <strong>100%</strong>
             </li>
           </ul>
         </SectionExample.Property>
@@ -188,20 +185,20 @@ const BackgroundColor = () => (
           declaration={`background-color: hsla(14, 100%, 53%, 0.6);`}
         >
           <p>
-            You can use <strong>hsl()a</strong> color codes:
+            Kamu dapat menggunakan kode warna <strong>hsla()</strong>:
           </p>
           <ul>
             <li>
-              the first 3 values are for <code>hsl</code>
+              3 nilai pertama untuk <code>hsl</code>
             </li>
             <li>
-              the 4th value is for the <code>alpha</code> channel and defines
-              the opacity of the color
+              nilai keempat untuk <code>alpha</code> <i>channel</i> dan mendefinisikan{" "}
+              tingkat transparansi dari warna
             </li>
           </ul>
           <p>
-            The alpha value can go from zero <strong>0</strong> (transparent) to
-            one <strong>1</strong> (opaque).
+            Nilai <i>alpha</i> dapat diisi dari <strong>0</strong> (transparan) hingga{" "}
+            satu <strong>1</strong> (buram).
           </p>
         </SectionExample.Property>
 

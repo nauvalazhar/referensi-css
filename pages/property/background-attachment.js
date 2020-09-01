@@ -14,8 +14,7 @@ const BackgroundAttachment = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-attachment"
       description=<React.Fragment>
         <p>
-          Defines <em>how</em> the background image will behave when scrolling
-          the page.
+          Mendefinisikan bagaimana gambar latar akan berperilaku saat halaman digulir.
         </p>
       </React.Fragment>
     >
@@ -25,8 +24,8 @@ const BackgroundAttachment = () => (
           declaration={`background-attachment: scroll;`}
         >
           <p>
-            The background image will scroll with the page. It will also
-            position and resize itself according to the element it's applied to.
+            Gambar latar akan bergulir dengan halaman. Itu juga akan memposisikan 
+            dan mengubah ukurannya sendiri sesuai dengan elemen yang diterapkan padanya.
           </p>
         </SectionExample.Property>
 
@@ -43,10 +42,7 @@ const BackgroundAttachment = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-attachment: fixed;`}>
           <p>
-            The background image will <em>not</em> scroll with the page, and
-            remain positioned according to the viewport. It will also position
-            and resize itself according to the viewport. As a result, the
-            background image will probably only be partially visible.
+            Gambar latar tidak menggulir dengan halaman, dan tetap diposisikan sesuai dengan <i>viewport</i>. Ini juga akan memposisikan dan mengubah ukurannya sendiri sesuai dengan viewport. Akibatnya, gambar latar mungkin hanya terlihat sebagian.
           </p>
         </SectionExample.Property>
 

@@ -14,6 +14,7 @@ Menerjemahkan hal di dalam ilmu komputer tidak semudah membalikan telapak tangan
 - cross/main axis
 - inline/block
 - keyframe
+- relative/absolute (path)
 - tunggu, masih dicari lagi ...
 
 ## Done
@@ -33,6 +34,16 @@ Daftar properti yang sudah diterjemahkan.
 - animation-play-state
 - animation-timing-function
 - animation
+
+#### Background
+- background-attachment
+- background-clip
+- background-color
+- background-image
+- background-origin
+- background-position
+- background-repeat
+- background-size
 
 ## Getting Started
 

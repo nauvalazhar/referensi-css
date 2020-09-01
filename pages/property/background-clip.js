@@ -14,8 +14,7 @@ const BackgroundClip = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background-clip"
       description=<React.Fragment>
         <p>
-          Defines how far the background should <strong>extend</strong> within
-          the element.
+          Mendefinisikan seberapa jauh latar belakang harus <strong>diperluas</strong> dalam elemen.
         </p>
       </React.Fragment>
     >
@@ -25,8 +24,8 @@ const BackgroundClip = () => (
           declaration={`background-clip: border-box;`}
         >
           <p>
-            The background extends completely throughout the element, even{" "}
-            <strong>under</strong> the border.
+            Latar belakang meluas sepenuhnya ke seluruh elemen, bahkan{" "}
+            <strong>di bawah</strong> <i>border</i>.
           </p>
         </SectionExample.Property>
 
@@ -43,8 +42,8 @@ const BackgroundClip = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-clip: padding-box;`}>
           <p>
-            The background only extends to the <em>edge</em> of the border: it
-            includes the padding but <em>not</em> the border.
+            Latar belakang hanya akan meluas ke tepi <i>border</i>: itu termasuk <i>padding</i>{" "}
+            tapi <strong>tidak</strong> dengan <i>border</i>.
           </p>
         </SectionExample.Property>
 
@@ -61,8 +60,8 @@ const BackgroundClip = () => (
       <SectionExample>
         <SectionExample.Property declaration={`background-clip: content-box;`}>
           <p>
-            The background only extends to the edge of the <em>content</em>: it
-            doesn't include the padding, nor the border.
+            Latar belakang hanya meluas ke tepi konten: itu tidak termasuk <i>padding</i>,{" "}
+            maupun <i>border</i>.
           </p>
         </SectionExample.Property>
 

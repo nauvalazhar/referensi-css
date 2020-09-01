@@ -9,7 +9,7 @@ const Background = () => (
       mdn="https://developer.mozilla.org/en/docs/Web/CSS/background"
       description=<React.Fragment>
         <p>
-          Shorthand property for{" "}
+          Properti steno (<i>shorthand</i>) untuk{" "}
           <code className="shorthand">
             <Link href={`/property/background-image`}>
               <a className="hash" data-property-name="background-image">
@@ -59,7 +59,7 @@ const Background = () => (
               </a>
             </Link>
           </code>{" "}
-          and{" "}
+          dan{" "}
           <code className="shorthand">
             <Link href={`/property/background-color`}>
               <a className="hash" data-property-name="background-color">
